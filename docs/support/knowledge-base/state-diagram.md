@@ -1,2 +1,3 @@
-# [ชื่อเมนู/ซับเมนู] - State Diagram
+## State Diagram
+ผังสเตทของระบบ
 ...
