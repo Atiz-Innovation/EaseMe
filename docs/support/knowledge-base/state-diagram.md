@@ -1,3 +1,1 @@
-## State Diagram
-ผังสเตทของระบบ
-...
+แผนภาพ state (ใช้ mermaid syntax)
