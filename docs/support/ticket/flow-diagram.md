@@ -1,12 +1,12 @@
-# Support - Flow Diagram
+# support/ticket - Flow Diagram
 
 ```mermaid
 flowchart TD
-   A[User Login] --> B[เข้าหน้า Support]
-   B --> C[ดูรายการ Ticket]
-   B --> D[รับเรื่อง Ticket ใหม่]
-   C --> E[อัปเดตสถานะ/หมายเหตุ]
-   C --> F[ลบ Ticket]
-   B --> G[ค้นหา/Filter Ticket]
-   B --> H[Export รายการ Ticket]
+    A[User Login] --> B[เข้าหน้า Support Ticket]
+    B --> C[ดู/ค้นหา/Filter Ticket]
+    B --> D[เพิ่ม Ticket ใหม่]
+    C --> E[เลือก Ticket เพื่อดูรายละเอียด]
+    E --> F[แก้ไข/เปลี่ยนสถานะ/มอบหมายงาน]
+    B --> G[Export รายการ Ticket]
+    D --> H[แนบไฟล์หลักฐาน]
 ```
