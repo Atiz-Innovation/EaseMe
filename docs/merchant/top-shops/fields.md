@@ -1,6 +1,4 @@
-#### **fields.md**
-
-# merchant/top-shops - Fields
+# Top Shops - Fields
 
 | Field Name        | Data Type | Description                          | Example Value         |
 |-------------------|-----------|--------------------------------------|----------------------|
