@@ -1,7 +1,4 @@
-#### test-case.md
-
-
-# merchant/highly-recommended-deals - Test Cases
+# Highly Recommended Deals - Test Cases
 
 - TC01: แสดงรายการดีลแนะนำถูกต้องตามลำดับ priority
 - TC02: ค้นหาดีลตามชื่อ, merchant_id, status, วันที่

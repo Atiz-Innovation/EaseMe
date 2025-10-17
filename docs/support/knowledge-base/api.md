@@ -1,35 +1,31 @@
-# support/knowledge-base API
+# Knowledge Base API
 
-## 1. GET /api/support/knowledge-base
-- ดึงรายการฐานความรู้ทั้งหมด
+## 1. GET /api/[endpoint]
+- รายการข้อมูลทั้งหมด
 ```json
 [
   {
-    "kb_id": "KB2024010001",
-    "title": "วิธีรีเซ็ตรหัสผ่าน",
-    "category": "การใช้งานระบบ",
-    "tags": ["reset", "password"],
-    "is_active": true
+    "field_1": "ตัวอย่างข้อมูล 1",
+    "field_2": 123
   }
 ]
 ```
 
-## 2. GET /api/support/knowledge-base/{kb_id}
-- ดึงรายละเอียดความรู้ตาม ID
+## 2. GET /api/[endpoint]/{id}
+- รายละเอียดข้อมูล
 
-## 3. POST /api/support/knowledge-base
-- สร้างข้อมูลความรู้ใหม่
+## 3. POST /api/[endpoint]
+- สร้างข้อมูลใหม่
 
-## 4. PUT /api/support/knowledge-base/{kb_id}
-- แก้ไขข้อมูลความรู้
+## 4. PUT /api/[endpoint]/{id}
+- แก้ไขข้อมูล
 
-## 5. DELETE /api/support/knowledge-base/{kb_id}
-- ลบข้อมูลความรู้
+## 5. DELETE /api/[endpoint]/{id}
+- ลบข้อมูล
 
-## 6. GET /api/support/knowledge-base/export
-- ส่งออกข้อมูลความรู้ (CSV/Excel)
+## 6. GET /api/[endpoint]/export
+- ส่งออกข้อมูล (CSV/Excel)
 
 ## หมายเหตุ
 - ทุก API ต้อง Authen ด้วย Bearer Token
-- response ทุก endpoint มี field status, message เสมอ
-- ข้อมูลที่ถูกลบจะไม่สามารถ rollback ได้
+- Response มี status และ message เสมอ

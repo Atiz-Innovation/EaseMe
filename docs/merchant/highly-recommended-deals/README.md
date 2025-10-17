@@ -1,6 +1,4 @@
-#### README.md
-
-# merchant/highly-recommended-deals Documentation
+# Highly Recommended Deals Documentation
 
 ## Overview
 เอกสารสำหรับฟีเจอร์ดีลแนะนำพิเศษของร้านค้า (Highly Recommended Deals)

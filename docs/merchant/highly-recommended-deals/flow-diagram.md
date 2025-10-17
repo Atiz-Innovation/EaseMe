@@ -1,6 +1,4 @@
-#### flow-diagram.md
-
-# merchant/highly-recommended-deals - Flow Diagram
+# Highly Recommended Deals - Flow Diagram
 
 ```mermaid
 flowchart TD

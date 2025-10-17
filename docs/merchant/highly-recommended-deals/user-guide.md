@@ -1,6 +1,4 @@
-#### user-guide.md
-
-# User Guide: merchant/highly-recommended-deals
+# User Guide: Highly Recommended Deals
 
 ## วัตถุประสงค์
 โมดูลนี้ใช้สำหรับบริหารจัดการดีลแนะนำพิเศษสำหรับร้านค้าบนแพลตฟอร์ม

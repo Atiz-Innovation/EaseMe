@@ -1,4 +1,4 @@
-# support/ticket - State Diagram
+# Ticket - State Diagram
 
 ```mermaid
 stateDiagram-v2

@@ -1,7 +1,4 @@
-#### state-diagram.md
-
-
-# merchant/highly-recommended-deals - State Diagram
+# Highly Recommended Deals - State Diagram
 
 ```mermaid
 stateDiagram-v2

@@ -1,7 +1,4 @@
-#### fields.md
-
-```markdown
-# merchant/highly-recommended-deals - Fields
+# Highly Recommended Deals - Fields
 
 | Field Name          | Data Type    | Description                                      | Example Value             |
 |---------------------|--------------|--------------------------------------------------|--------------------------|
@@ -21,4 +18,3 @@
 # หมายเหตุ:
 - สถานะดีลจะเปลี่ยนเป็น EXPIRED อัตโนมัติเมื่อสิ้นสุด end_date
 - priority ยิ่งน้อยยิ่งแสดงบนสุด
-```

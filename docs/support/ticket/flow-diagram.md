@@ -1,4 +1,4 @@
-# support/ticket - Flow Diagram
+# Ticket - Flow Diagram
 
 ```mermaid
 flowchart TD

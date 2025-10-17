@@ -1,4 +1,4 @@
-# support/ticket API
+# Ticket API
 
 ## 1. GET /api/support/ticket
 - ดึงรายการ Ticket ทั้งหมด

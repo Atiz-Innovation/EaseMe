@@ -1,4 +1,4 @@
-# support/ticket - Fields
+# Ticket - Fields
 
 | Field Name        | Data Type | Description                                  | Example Value           |
 |-------------------|-----------|----------------------------------------------|------------------------|

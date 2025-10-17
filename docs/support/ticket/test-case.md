@@ -1,4 +1,4 @@
-# support/ticket - Test Cases
+# Ticket - Test Cases
 
 - TC01: แสดงรายการ Ticket ถูกต้อง (ทุก field)
 - TC02: ค้นหา Ticket ตาม subject/status/priority ได้

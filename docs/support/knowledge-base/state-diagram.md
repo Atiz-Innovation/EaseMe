@@ -1,4 +1,4 @@
-# support/knowledge-base - State Diagram
+# Knowledge Base - State Diagram
 
 ```mermaid
 stateDiagram-v2

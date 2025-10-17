@@ -1,7 +1,4 @@
-#### api.md
-
-```markdown
-# merchant/highly-recommended-deals API
+# Highly Recommended Deals API
 
 ## 1. GET /api/merchant/highly-recommended-deals
 - ดึงรายการดีลแนะนำทั้งหมด

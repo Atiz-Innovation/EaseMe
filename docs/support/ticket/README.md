@@ -1,4 +1,4 @@
-# support/ticket Documentation
+# Ticket Documentation
 
 ## Overview
 เอกสารสำหรับระบบบริหารจัดการ Ticket Support
