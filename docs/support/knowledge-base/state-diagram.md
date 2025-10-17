@@ -1,4 +1,4 @@
-# [ชื่อเมนู/ซับเมนู] - State Diagram
+# support/knowledge-base - State Diagram
 
 ```mermaid
 stateDiagram-v2

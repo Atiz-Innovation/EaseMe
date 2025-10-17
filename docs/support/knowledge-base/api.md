@@ -1,4 +1,4 @@
-# [ชื่อเมนู/ซับเมนู] API
+# support/knowledge-base API
 
 ## 1. GET /api/[endpoint]
 - รายการข้อมูลทั้งหมด

@@ -1,7 +1,7 @@
-# [ชื่อเมนู/ซับเมนู] Documentation
+# support/knowledge-base Documentation
 
 ## Overview
-เอกสารสำหรับเมนู/ซับเมนู [ชื่อเมนู/ซับเมนู]
+เอกสารสำหรับเมนู/ซับเมนู support/knowledge-base  
 ครอบคลุม field, คู่มือ, API, test case, flow, state diagram
 
 ## Table of Contents
@@ -22,5 +22,5 @@
 ## Contributor & Contact
 - เพิ่ม Issue หรือ Pull Request สำหรับข้อเสนอแนะ
 
-**หมายเหตุ:**
+**หมายเหตุ:**  
 สามารถปรับปรุง/ขยายไฟล์เหล่านี้ได้ตลอด

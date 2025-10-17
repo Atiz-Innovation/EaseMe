@@ -1,4 +1,4 @@
-# [ชื่อเมนู/ซับเมนู] - Test Cases
+# support/knowledge-base - Test Cases
 
 - TC01: แสดงรายการข้อมูลถูกต้อง
 - TC02: ค้นหา/Filter ข้อมูลได้
