@@ -1,5 +1,5 @@
 #### **flow-diagram.md**
-```markdown
+
 # merchant/top-shops - Flow Diagram
 
 ```mermaid
@@ -11,5 +11,4 @@ flowchart TD
     B --> F[Export รายการร้านค้าชั้นนำ]
     D --> G[บันทึก audit log]
     E --> G
-```
 ```

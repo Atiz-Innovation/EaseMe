@@ -1,6 +1,5 @@
 #### user-guide.md
 
-```markdown
 # User Guide: merchant/highly-recommended-deals
 
 ## วัตถุประสงค์
@@ -26,4 +25,4 @@
 ## หมายเหตุ
 - เฉพาะผู้มีสิทธิ์ (Admin, Merchant Owner) เท่านั้นที่สามารถเพิ่ม/แก้ไข/ลบดีล
 - ดีลที่หมดอายุจะถูกเปลี่ยนสถานะอัตโนมัติเป็น EXPIRED และไม่สามารถแก้ไขได้
-```
+

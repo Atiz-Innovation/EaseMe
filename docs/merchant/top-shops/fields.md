@@ -1,5 +1,5 @@
 #### **fields.md**
-```markdown
+
 # merchant/top-shops - Fields
 
 | Field Name        | Data Type | Description                          | Example Value         |
@@ -19,4 +19,4 @@
 # หมายเหตุ:
 - สามารถปรับแต่ง field ตามความเหมาะสมกับระบบร้านค้า
 - ควรตรวจสอบความครบถ้วนของข้อมูลก่อนบันทึก
-```
+

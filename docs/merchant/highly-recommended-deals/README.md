@@ -1,6 +1,5 @@
 #### README.md
 
-```markdown
 # merchant/highly-recommended-deals Documentation
 
 ## Overview
@@ -27,4 +26,4 @@
 
 **หมายเหตุ:**
 เอกสารนี้สามารถปรับปรุงได้ตาม feedback และการเปลี่ยนแปลง requirement
-```
+

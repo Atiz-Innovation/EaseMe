@@ -1,6 +1,5 @@
 #### flow-diagram.md
 
-```markdown
 # merchant/highly-recommended-deals - Flow Diagram
 
 ```mermaid
@@ -13,5 +12,4 @@ flowchart TD
     B --> G[Export รายการดีล]
     F --> H[ตรวจสอบสถานะดีล]
     H --> I[ดีลหมดอายุ -> เปลี่ยนเป็น EXPIRED อัตโนมัติ]
-```
 ```

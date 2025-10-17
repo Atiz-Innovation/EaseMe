@@ -1,6 +1,6 @@
 #### test-case.md
 
-```markdown
+
 # merchant/highly-recommended-deals - Test Cases
 
 - TC01: แสดงรายการดีลแนะนำถูกต้องตามลำดับ priority
@@ -13,4 +13,4 @@
 - TC08: ไม่สามารถแก้ไขหรือลบดีลที่หมดอายุแล้ว (EXPIRED)
 - TC09: API แสดง error กรณีข้อมูลซ้ำ (title, period ซ้อน)
 - TC10: ระบบเปลี่ยนสถานะเป็น EXPIRED อัตโนมัติเมื่อครบ end_date
-```
+

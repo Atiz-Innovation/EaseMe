@@ -1,5 +1,5 @@
 #### **state-diagram.md**
-```markdown
+
 # merchant/top-shops - State Diagram
 
 ```mermaid
@@ -20,5 +20,4 @@ stateDiagram-v2
     ListLoaded --> [*]
     Error --> Retry
     Retry --> Loading
-```
 ```

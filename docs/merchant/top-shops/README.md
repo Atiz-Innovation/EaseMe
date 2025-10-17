@@ -1,5 +1,5 @@
 #### **README.md**
-```markdown
+
 # merchant/top-shops Documentation
 
 ## Overview
@@ -25,4 +25,3 @@
 
 **หมายเหตุ:**
 - เอกสารนี้สามารถอัปเดตและขยายรายละเอียดเพิ่มเติมได้ตลอดเวลา
-```

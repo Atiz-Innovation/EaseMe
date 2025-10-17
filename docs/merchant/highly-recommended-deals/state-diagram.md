@@ -1,6 +1,6 @@
 #### state-diagram.md
 
-```markdown
+
 # merchant/highly-recommended-deals - State Diagram
 
 ```mermaid
@@ -24,4 +24,4 @@ stateDiagram-v2
     Error --> Retry
     Retry --> Loading
 ```
-```
+

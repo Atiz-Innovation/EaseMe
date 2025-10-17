@@ -1,5 +1,5 @@
 #### **api.md**
-```markdown
+
 # merchant/top-shops API
 
 ## 1. GET /api/merchant/top-shops
@@ -47,4 +47,4 @@
 - ทุก API ต้องมี Bearer Token ใน header เพื่อยืนยันตัวตน
 - Response ทุก endpoint จะมี field "status" และ "message" เสมอ
 - หากข้อมูลซ้ำหรือผิดพลาด จะส่ง error code กลับ
-```
+

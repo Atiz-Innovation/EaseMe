@@ -1,5 +1,5 @@
 #### **user-guide.md**
-```markdown
+
 # User Guide: merchant/top-shops
 
 ## วัตถุประสงค์
@@ -25,4 +25,4 @@
 - การจัดการ top shops ต้องมีสิทธิ์ Admin หรือ Merchant Manager
 - การเปลี่ยนแปลงข้อมูลจะถูกบันทึกในระบบ audit log
 - การลบร้านค้าจะไม่ลบข้อมูลร้านค้าในฐานข้อมูลหลัก
-```
+
