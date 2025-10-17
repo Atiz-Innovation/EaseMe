@@ -1,8 +1,7 @@
 # support/knowledge-base Documentation
 
 ## Overview
-เอกสารสำหรับเมนู/ซับเมนู support/knowledge-base  
-ครอบคลุม field, คู่มือ, API, test case, flow, state diagram
+เอกสารสำหรับเมนู/ซับเมนู support/knowledge-base ครอบคลุม field, คู่มือ, API, test case, flow, state diagram
 
 ## Table of Contents
 1. [fields.md](./fields.md)
@@ -22,5 +21,5 @@
 ## Contributor & Contact
 - เพิ่ม Issue หรือ Pull Request สำหรับข้อเสนอแนะ
 
-**หมายเหตุ:**  
+**หมายเหตุ:**
 สามารถปรับปรุง/ขยายไฟล์เหล่านี้ได้ตลอด
