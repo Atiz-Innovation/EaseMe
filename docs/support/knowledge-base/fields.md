@@ -1,4 +1,4 @@
-# [ชื่อเมนู/ซับเมนู] - Fields
+# support/knowledge-base - Fields
 
 | Field Name        | Data Type | Description                                 | Example Value      |
 |-------------------|-----------|---------------------------------------------|--------------------|
