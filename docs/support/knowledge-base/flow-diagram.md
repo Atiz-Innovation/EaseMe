@@ -1,3 +1,1 @@
-## Flow Diagram
-ผังการไหลของระบบ
-...
+แผนภาพ flow (ใช้ mermaid syntax)

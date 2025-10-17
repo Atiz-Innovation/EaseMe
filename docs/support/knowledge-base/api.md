@@ -1,3 +1,1 @@
-## API
-ตัวอย่าง API และวิธีใช้
-...
+ตัวอย่าง endpoint, request/response, หมายเหตุ
