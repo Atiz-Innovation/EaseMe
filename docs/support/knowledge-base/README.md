@@ -1,8 +1,7 @@
 # support/knowledge-base Documentation
 
 ## Overview
-เอกสารสำหรับเมนู/ซับเมนู support/knowledge-base
-ครอบคลุม field, คู่มือ, API, test case, flow, state diagram
+เอกสารสำหรับเมนูฐานความรู้ (Knowledge Base) เพื่อสนับสนุนการบริการลูกค้าและทีมงาน โดยครอบคลุมรายละเอียด field, คู่มือ, API, test case, flow, และ state diagram
 
 ## Table of Contents
 1. [fields.md](./fields.md)
@@ -13,14 +12,14 @@
 6. [state-diagram.md](./state-diagram.md)
 
 ## How to Use
-- ออกแบบฐานข้อมูล/ระบบ: fields.md
-- อ่านคู่มือ: user-guide.md
-- เชื่อมต่อ backend: api.md
+- ศึกษาโครงสร้างข้อมูล: fields.md
+- อ่านคู่มือการใช้งาน: user-guide.md
+- เชื่อมต่อ API: api.md
 - ทดสอบระบบ: test-case.md
-- ดู flow และ state: flow-diagram.md, state-diagram.md
+- ตรวจสอบ flow และ state ของระบบ: flow-diagram.md, state-diagram.md
 
 ## Contributor & Contact
-- เพิ่ม Issue หรือ Pull Request สำหรับข้อเสนอแนะ
+- สอบถามปัญหา/เสนอแนะ เพิ่ม Issue หรือ Pull Request ใน repo
 
-**หมายเหตุ:**
-สามารถปรับปรุง/ขยายไฟล์เหล่านี้ได้ตลอด
+**หมายเหตุ:** 
+เอกสารนี้สามารถปรับปรุง/ขยายรายละเอียดได้ตลอดเวลา
