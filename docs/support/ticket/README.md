@@ -1,8 +1,8 @@
-# Support Documentation
+# support/ticket Documentation
 
 ## Overview
-เอกสารสำหรับเมนู Support
-ครอบคลุม field, คู่มือ, API, test case, flow, state diagram
+เอกสารสำหรับระบบบริหารจัดการ Ticket Support
+ครอบคลุมโครงสร้างข้อมูล, คู่มือ, API, กรณีทดสอบ, Flow และ State Diagram เพื่อการพัฒนาและดูแลระบบ
 
 ## Table of Contents
 1. [fields.md](./fields.md)
@@ -13,14 +13,14 @@
 6. [state-diagram.md](./state-diagram.md)
 
 ## How to Use
-- ออกแบบฐานข้อมูล/ระบบ Ticket: fields.md
-- อ่านคู่มือ: user-guide.md
-- เชื่อมต่อ backend: api.md
+- ศึกษาโครงสร้างข้อมูล: fields.md
+- อ่านคู่มือการใช้งาน: user-guide.md
+- เชื่อมต่อใช้งาน API: api.md
 - ทดสอบระบบ: test-case.md
-- ดู flow และ state: flow-diagram.md, state-diagram.md
+- ดูภาพรวม Flow/State: flow-diagram.md, state-diagram.md
 
 ## Contributor & Contact
-- เพิ่ม Issue หรือ Pull Request สำหรับข้อเสนอแนะ
+- แจ้งปัญหาหรือเสนอแนะผ่าน Issue หรือ Pull Request
 
 **หมายเหตุ:**
-สามารถปรับปรุง/ขยายไฟล์เหล่านี้ได้ตลอด
+สามารถปรับปรุง/เสนอข้อคิดเห็นเพื่อพัฒนาระบบนี้ได้ตลอดเวลา

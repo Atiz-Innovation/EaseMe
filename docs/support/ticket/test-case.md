@@ -1,10 +1,12 @@
-# Support - Test Cases
+# support/ticket - Test Cases
 
-- TC01: แสดงรายการ Ticket ถูกต้อง
-- TC02: รับเรื่อง Ticket ใหม่สำเร็จ
-- TC03: อัปเดตสถานะ/หมายเหตุ Ticket ได้
-- TC04: ลบ Ticket สำเร็จ
-- TC05: ค้นหา/Filter Ticket จากหัวข้อ หมวดหมู่ สถานะ ผู้แจ้ง ได้
-- TC06: Export รายการ Ticket เป็น CSV/Excel ได้
-- TC07: User ที่ไม่มีสิทธิ์ไม่สามารถจัดการ Ticket ได้
-- TC08: แสดง error เมื่อ API ผิดพลาดหรือข้อมูลซ้ำ
+- TC01: แสดงรายการ Ticket ถูกต้อง (ทุก field)
+- TC02: ค้นหา Ticket ตาม subject/status/priority ได้
+- TC03: เพิ่ม Ticket ใหม่สำเร็จ
+- TC04: แก้ไขรายละเอียด Ticket สำเร็จ
+- TC05: ลบ Ticket (เฉพาะสถานะ NEW หรือ admin)
+- TC06: Export ข้อมูล Ticket เป็น Excel/CSV ได้
+- TC07: User ทั่วไปไม่สามารถลบ Ticket ที่ไม่ใช่ของตนได้
+- TC08: สถานะ Ticket เปลี่ยนถูกต้องหลังแก้ไข
+- TC09: API ส่ง error กรณีข้อมูลไม่ถูกต้องหรือซ้ำ
+- TC10: แนบไฟล์สำเร็จและแสดงใน Ticket
