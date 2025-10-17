@@ -1,0 +1,188 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "EaseMe Admin Console API",
+    "description": "OpenAPI spec สำหรับ API หลักของระบบ Admin Console (Dashboard, Member, Merchant, Coupon, Transaction, Support)",
+    "version": "1.0.0"
+  },
+  "servers": [
+    { "url": "https://api.easeme.com" }
+  ],
+  "paths": {
+    "/api/dashboard/summary": {
+      "get": {
+        "summary": "Dashboard summary widgets",
+        "responses": {
+          "200": {
+            "description": "Summary data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total_sales": { "type": "number", "example": 120000 },
+                    "gp": { "type": "number", "example": 20000 },
+                    "net_revenue": { "type": "number", "example": 15000 },
+                    "total_transactions": { "type": "integer", "example": 180 },
+                    "new_members": { "type": "integer", "example": 55 }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    },
+    "/api/members": {
+      "get": {
+        "summary": "Get all members",
+        "responses": {
+          "200": {
+            "description": "List of members",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "user_id": { "type": "string" },
+                      "full_name": { "type": "string" },
+                      "email": { "type": "string" },
+                      "status": { "type": "string", "example": "Active" },
+                      "member_level": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    },
+    "/api/merchants": {
+      "get": {
+        "summary": "Get all merchants",
+        "responses": {
+          "200": {
+            "description": "List of merchants",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "merchant_id": { "type": "string" },
+                      "store_name": { "type": "string" },
+                      "status": { "type": "string", "example": "Active" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    },
+    "/api/coupons": {
+      "get": {
+        "summary": "Get all coupons",
+        "responses": {
+          "200": {
+            "description": "List of coupons",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "coupon_id": { "type": "string" },
+                      "coupon_name": { "type": "string" },
+                      "coupon_type": { "type": "string" },
+                      "discount_amount": { "type": "number" },
+                      "status": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    },
+    "/api/transactions": {
+      "get": {
+        "summary": "Get all transactions",
+        "responses": {
+          "200": {
+            "description": "List of transactions",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "transaction_id": { "type": "string" },
+                      "merchant_id": { "type": "string" },
+                      "user_id": { "type": "string" },
+                      "transaction_date": { "type": "string", "format": "date-time" },
+                      "transaction_status": { "type": "string" },
+                      "payment_method": { "type": "string" },
+                      "gmv": { "type": "number" },
+                      "net_revenue": { "type": "number" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    },
+    "/api/support/tickets": {
+      "get": {
+        "summary": "Get all support tickets",
+        "responses": {
+          "200": {
+            "description": "List of support tickets",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "ticket_id": { "type": "string" },
+                      "category": { "type": "string" },
+                      "subject": { "type": "string" },
+                      "status": { "type": "string" },
+                      "created_by": { "type": "string" },
+                      "created_date": { "type": "string", "format": "date-time" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "bearerAuth": [] }]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}
