@@ -1,0 +1,3 @@
+# Coupon/Buy X Get Y
+
+See: fields.md, user-guide.md, api.md, test-case.md, flow-diagram.md, state-diagram.md
