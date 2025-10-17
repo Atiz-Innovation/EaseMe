@@ -3,9 +3,9 @@
 | Field Name        | Data Type | Description                            | Example Value      |
 |-------------------|-----------|----------------------------------------|--------------------|
 | user_id           | String    | รหัสสมาชิก/ผู้ใช้งาน                   | USR-001            |
-| username          | String    | ชื่อบัญชี                              | siwadon            |
-| full_name         | String    | ชื่อ-นามสกุล                           | ศิวดล สดใส         |
-| email             | String    | อีเมล                                   | siwadon@email.com  |
+| username          | String    | ชื่อบัญชี                              | easeme-user            |
+| full_name         | String    | ชื่อ-นามสกุล                           | อีสมี สดใส         |
+| email             | String    | อีเมล                                   | easeme-user@email.com  |
 | phone_number      | String    | เบอร์โทร                               | 0812345678         |
 | store_name        | String    | ร้านค้าต้นสังกัด (ถ้ามี)               | ABC Clinic         |
 | store_type        | Enum      | ประเภทร้านค้า (ถ้ามี)                  | คลินิก             |
